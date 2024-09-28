@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# This script runs just as the docker container is booting up and configures 
+# sssd to user ldap based on the server and domain of the runtime.  
+# See CMD in Dockerfile and test.sh to see how -e sets the HOSTNAME and DOMAIN_NAME
+
 # Set the hostname and domain using environment variables, with defaults
 HOSTNAME="${HOSTNAME:-ssh}"
 DOMAIN_NAME="${DOMAIN_NAME:-example.com}"
