@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This scriot is only used to make ssh keys for the server and the client whent he docker is built.
+# See the Dockerfile where these keys are copied into.
+
 # Check if the ssh_server_keys folder exists; if not, create it and generate keys
 # The keys are kept to prevent the need to accept the fingerprint when connecting to the SSH server 
 # over multiple builds
