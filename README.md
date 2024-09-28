@@ -150,3 +150,7 @@ Run the clean script to clean up the keys and fingerprints.
 ```
 ./clean.sh
 ```
+
+## Credits
+
+Thank you GPT for your fast typing and noodging: https://chatgpt.com/share/66f78b40-3f7c-8004-aecf-de23bc440e80
